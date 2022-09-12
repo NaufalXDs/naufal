@@ -3,7 +3,7 @@ module.exports = {
   content: ["public/index.html"],
   darkMode: "class",
   theme: {
-    themes: ["halloween", "bumblebee"],
+    themes: ["night", "bumblebee"],
     container: {
       center: true,
       padding: "16px",
