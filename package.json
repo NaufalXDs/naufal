@@ -3,9 +3,12 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "dev": "npx tailwindcss -i ./public/src/input.css -o ./public/build.css --watch"
+    "dev": "npx tailwindcss -i ./public/src/input.css -o ./public/build.css --watch",
+    "mini": "npx tailwindcss -o ./public/build.css --minify"
   },
   "dependencies": {
-    "daisyui": "^2.25.0"
+    "daisyui": "^2.25.0",
+    "jquery": "^3.6.1",
+    "typed.js": "^2.0.12"
   }
 }
