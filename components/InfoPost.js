@@ -11,7 +11,7 @@ export default function InfoPost({ date, title, shortDescription, category, link
         <span>&bull;</span>
         <div className="text-[#963636]">{date}</div>
         <hr />
-        <a className="bg-red-400 p-2 rounded dark:text-white" href={link} target="_blank">Repository</a>
+        <a className="bg-red-400 p-2 rounded dark:text-white" rel="noreferrer" href={link} target="_blank">Repository</a>
       </div>
     </>
   );

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <div className="navbar bg-base-100 animate__animated animate__bounce bg-transparent">
@@ -10,24 +12,24 @@ export default function Navbar() {
           </label>
           <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-              <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
+              <Link className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
                 Home
-              </a>
+              </Link>
             </li>
             <li tabIndex="0">
-              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
+              <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
+              <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
                 Project
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
+              <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
               <div className="flex justify-center">
@@ -53,31 +55,31 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl" href="/">
+        <Link className="btn btn-ghost normal-case text-xl" href="/">
           Naufal7
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 bg-">
           <li>
-            <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
+            <Link className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
               Home
-            </a>
+            </Link>
           </li>
           <li tabIndex="0">
-            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
+            <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
+            <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
               Project
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
+            <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
               Blog
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="flex justify-center">
@@ -103,9 +105,9 @@ export default function Navbar() {
       </div>
 
       <div className="navbar-end gap-3">
-        <a className="btn font-semibold lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
+        <Link className="btn font-semibold lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   );

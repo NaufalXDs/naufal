@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-10 text-center text-base">
       <p className="tooltip" data-tip="">
         Create By Code With{" "}
-        <a href="https://tailwindcss.com" target="_blank" className="text-blue-500">
+        <a href="https://tailwindcss.com" rel="noreferrer" target="_blank" className="text-blue-500">
           TailwindCss,
         </a>
         <a href="https://nextjs.org" className="text-blue-500"> Next Js</a>
