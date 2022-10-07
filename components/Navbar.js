@@ -12,24 +12,24 @@ export default function Navbar() {
           </label>
           <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-              <Link className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
+              <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
                 Home
-              </Link>
+              </a>
             </li>
             <li tabIndex="0">
-              <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
+              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
+              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
                 Project
-              </Link>
+              </a>
             </li>
             <li>
-              <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
+              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
                 Blog
-              </Link>
+              </a>
             </li>
             <li>
               <div className="flex justify-center">
@@ -55,31 +55,31 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <Link className="btn btn-ghost normal-case text-xl" href="/">
+        <a className="btn btn-ghost normal-case text-xl" href="/pages/index.js">
           Naufal7
-        </Link>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 bg-">
           <li>
-            <Link className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
+            <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
               Home
-            </Link>
+            </a>
           </li>
           <li tabIndex="0">
-            <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
+            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
               About
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
+            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
               Project
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
+            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
               Blog
-            </Link>
+            </a>
           </li>
         </ul>
         <div className="flex justify-center">
@@ -105,9 +105,9 @@ export default function Navbar() {
       </div>
 
       <div className="navbar-end gap-3">
-        <Link className="btn font-semibold lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
+        <a className="btn font-semibold lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
           Contact
-        </Link>
+        </a>
       </div>
     </div>
   );

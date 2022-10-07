@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -29,7 +30,7 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,900&display=swap" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
           <link rel="icon" href="Naufal.png" />
-          <script src="/theme.js" async></script>
+          <Script src="/theme.js"></Script>
         </Head>
         <body>
           <Main />
