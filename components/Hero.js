@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <div className="hero min-h-67 p-5" id="Home">
       <div className="md:hero-content flex-col lg:flex-row sm:justify-center">
-        <img src="/Naufal.png" width="260" height="260" alt="Naufal From Github" className="max-w-sm rounded-lg lg:animate__animated lg:animate__fadeInLeft" />
+        <img src="/Naufal.png" width="260" height="260" alt="Naufal From Github" className="max-w-sm rounded-lg" />
         <div>
           <h2 className="text-base font-semibold text-blue-500 md:mt-0 mt-2 md:text-xl md:text-left text-center">
             hello everyone 👋, this is<span className="mt-1 block text-4xl font-bold text-dark lg:text-3xl lg:text-start text-center">Naufal</span>
