@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["public/index.html"],
-  darkMode: "class",
+  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    themes: ["night", "bumblebee"],
+    themes: ["dark", "autumn"],
     container: {
       center: true,
       padding: "16px",
@@ -13,7 +12,8 @@ module.exports = {
         Default: "#0ea5e9",
       },
       fontFamily: {
-        Poppins: "Poppins",
+        // sans: ["Patrick Hand", "Arial", "sans-serif", ""],
+        Poppins: ["Poppins"],
       },
       screens: {
         "2xl": "1320px",
