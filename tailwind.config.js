@@ -12,8 +12,8 @@ module.exports = {
         Default: "#0ea5e9",
       },
       fontFamily: {
-        sans: ["Patrick Hand", "Arial", "sans-serif"],
-        // Poppins: ["Poppins"],
+        // sans: ["Patrick Hand", "Arial", "sans-serif"],
+        Poppins: ["Poppins"],
       },
       screens: {
         "2xl": "1320px",
