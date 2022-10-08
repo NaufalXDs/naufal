@@ -2,12 +2,11 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <footer className="footer footer-center p-10 text-base-content rounded items-center">
       <div className="grid grid-flow-col gap-4">
         <a className="link link-hover" href="#About">About us</a>
         <a className="link link-hover" href="mailto:naufal@naufalxd.xyz">Contact</a>
-        <a className="link link-hover cursor-not-allowed">Jobs</a>
-        <a className="link link-hover cursor-not-allowed">Press kit</a>
+        <a className="link link-hover cursor-not-allowed" href="/blog">Blog</a>
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
@@ -27,7 +26,7 @@ export default function Footer() {
           </Link>
           <Link href="https://instagram.com/naufal.banh_">
             <a target="_blank" rel="noopener noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-instagram">
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />

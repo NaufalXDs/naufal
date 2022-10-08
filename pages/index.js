@@ -24,8 +24,8 @@ export default function Home() {
         </div>
       </div>
       {/* Post Project */}
-      <section id="Project" className="pt-36 pb-32 p-10">
-        <div className="container mx-auto px-10">
+      <section id="Project" className="pb-32">
+        <div className="container mx-auto px-9 items-center">
           <div className="w-full px-4">
             <div className="mx-auto mb-16 max-w-xl text-center">
               <h2 className="mb-4 text-3xl font-bold sm:text-4xl lg:text-5xl">Project</h2>
@@ -37,7 +37,7 @@ export default function Home() {
             {/* <div className="w-full px-4 lg:w-1/2 xl:w-1/3"> */}
               <div className="flex -mx-4 flex-wrap mt-6">
                 {posts.map((post) => (
-                  <div key={post.id} className="lg:w-4/12 md:w-full px-4 py-6">
+                  <div key={post.id} className="card lg:w-4/12 md:w-full px-4 py-6">
                     <CardPost {...post} />
                   </div>
                 ))}

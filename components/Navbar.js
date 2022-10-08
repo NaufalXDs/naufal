@@ -12,22 +12,22 @@ export default function Navbar() {
           </label>
           <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-              <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
+              <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="/">
                 Home
               </a>
             </li>
             <li tabIndex="0">
-              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
+              <a className="lg:hover:shadow-md md:hover:shadow-md" href="/#About">
                 About
               </a>
             </li>
             <li>
-              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
+              <a className="lg:hover:shadow-md md:hover:shadow-md" href="/#Project">
                 Project
               </a>
             </li>
             <li>
-              <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
+              <a className="lg:hover:shadow-md md:hover:shadow-md" href="/blog">
                 Blog
               </a>
             </li>
@@ -62,22 +62,22 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0 bg-">
           <li>
-            <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="#Home">
+            <a className="font-bold lg:hover:shadow-md md:hover:shadow-md" href="/">
               Home
             </a>
           </li>
           <li tabIndex="0">
-            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#About">
+            <a className="lg:hover:shadow-md md:hover:shadow-md" href="/#About">
               About
             </a>
           </li>
           <li>
-            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Project">
+            <a className="lg:hover:shadow-md md:hover:shadow-md" href="/#Project">
               Project
             </a>
           </li>
           <li>
-            <a className="lg:hover:shadow-md md:hover:shadow-md" href="#Blog">
+            <a className="lg:hover:shadow-md md:hover:shadow-md" href="/blog">
               Blog
             </a>
           </li>

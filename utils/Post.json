@@ -10,10 +10,10 @@
     },
     {
         "id": 2,
-        "thumbnail": "/thumbnail-2.png",
+        "thumbnail": "/thumbnail-1.png",
         "date": "October 29, 2022",
         "title": "Personal Website v1.2",
-        "shortDescription": "to know who I am and be able to see my work,With NextJs",
+        "shortDescription": "With NextJs",
         "category": "Website",
         "link": "https://github.com/NaufalXDs/Naufal"
     },
