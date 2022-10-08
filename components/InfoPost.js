@@ -2,15 +2,11 @@ export default function InfoPost({ date, title, shortDescription, category, link
   return (
     <>
       {/* <img src={thumbnails} alt="" className="w-full" /> */}
-      <h2 className="card-title text-2xl mt-4 text-center text-yellow-300">{title}</h2>
-      <p className="text-[#363636]">{shortDescription}</p>
-      <div className="flex items-center justify-center text-base mt-10 space-x-5">
-        <div className="font-semibold text-gray-400">{category}</div>
-        <span>&bull;</span>
-        {/* <div className="text-[#963636]">{date}</div> */}
-        <a className="action bg-red-400 p-2 rounded dark:text-white" rel="noreferrer" href={link} target="_blank">
-          Repository
-        </a>
+      <h2 className="card-title text-[#4b4b4a] ml-4">{title}</h2>
+      <p className="text-[#7d7c7c] text-start ml-2">{shortDescription}</p>
+      <div className="card-actions justify-end mt-4 mr-2 flex flex-wrap">
+        <div className="text-[#585b5f] badge badge-outline">{date}</div>
+        <div className="font-semibold text-gray-900 text-right badge badge-outline">{category}</div>
       </div>
     </>
   );

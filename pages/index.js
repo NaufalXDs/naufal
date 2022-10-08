@@ -35,9 +35,9 @@ export default function Home() {
 
           <div className="flex">
             {/* <div className="w-full px-4 lg:w-1/2 xl:w-1/3"> */}
-              <div className="flex -mx-4 flex-wrap mt-6">
+              <div className="flex flex-wrap mt-6 gap-5 -mx-5 md:mx-auto">
                 {posts.map((post) => (
-                  <div key={post.id} className="card lg:w-4/12 md:w-full px-4 py-6">
+                  <div key={post.id} className="card mx-auto w-72 bg-gray-300 shadow-xl mt-4 rounded-none">
                     <CardPost {...post} />
                   </div>
                 ))}
