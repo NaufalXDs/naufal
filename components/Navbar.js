@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100 animate__animated animate__bounce bg-transparent">
+    <div className="navbar bg-base-100 animate__animated animate__bounce bg-transparent text-xs">
       <div className="navbar-start mx-auto">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -55,7 +55,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl" href="/pages/index.js">
+        <a className="btn btn-ghost normal-case text-md" href="/pages/index.js">
           Naufal7
         </a>
       </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
       </div>
 
       <div className="navbar-end gap-3">
-        <a className="btn font-semibold lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
+        <a className="btn text-md lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
           Contact
         </a>
       </div>

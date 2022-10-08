@@ -24,7 +24,7 @@ export default function Home() {
         </div>
       </div>
       {/* Post Project */}
-      <section id="Project" className="pt-36 pb-32">
+      <section id="Project" className="pt-36 pb-32 p-10">
         <div className="container mx-auto px-10">
           <div className="w-full px-4">
             <div className="mx-auto mb-16 max-w-xl text-center">
