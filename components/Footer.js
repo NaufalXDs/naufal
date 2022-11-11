@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="grid grid-flow-col gap-4">
         <a className="link link-hover" href="#About">About us</a>
         <a className="link link-hover" href="mailto:naufal@naufalxd.xyz">Contact</a>
-        <a className="link link-hover cursor-not-allowed" href="/blog">Blog</a>
+        <a className="link link-hover cursor-not-allowed" href="">Blog</a>
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
