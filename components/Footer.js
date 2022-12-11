@@ -4,9 +4,15 @@ export default function Footer() {
   return (
     <footer className="footer footer-center p-10 text-base-content rounded items-center">
       <div className="grid grid-flow-col gap-4">
-        <a className="link link-hover" href="#About">About us</a>
-        <a className="link link-hover" href="mailto:naufal@naufalxd.xyz">Contact</a>
-        <a className="link link-hover cursor-not-allowed" href="/blog">Blog</a>
+        <a className="link link-hover" href="#About">
+          About us
+        </a>
+        <a className="link link-hover" href="mailto:naufal@naufalxd.xyz">
+          Contact
+        </a>
+        <a className="link link-hover cursor-not-allowed" href="/blog">
+          Blog
+        </a>
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
@@ -36,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p className="text-gray-700">Copyright © 2022 - All right reserved by NaUfAl 🥶</p>
+        <p className="text-white">Copyright © 2022 - All right reserved by Naufal 🥶</p>
       </div>
     </footer>
   );
