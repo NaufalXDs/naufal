@@ -10,15 +10,6 @@ export default function Footer() {
         <a className="link link-hover" href="mailto:naufal@naufalxd.xyz">
           Contact
         </a>
-        <a className="link link-hover cursor-not-allowed" href="/blog">
-          Blog
-        </a>
-        <a className="link link-hover" href="#About">
-          About us
-        </a>
-        <a className="link link-hover" href="mailto:naufal@naufalxd.xyz">
-          Contact
-        </a>
         <a className="link link-hover cursor-not-allowed" href="">
           Blog
         </a>
@@ -51,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p className="text-white">Copyright © 2022 - All right reserved by Naufal 🥶</p>
+        <p className="text-slate-700 dark:text-white">Copyright © 2022 - All right reserved by Naufal 🥶</p>
       </div>
     </footer>
   );

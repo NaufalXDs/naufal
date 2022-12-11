@@ -11,7 +11,7 @@ export default function Secret() {
         <button onClick={acc} className="rounded-md bg-slate-900 p-2 text-red-600">
           I Love You
         </button>
-        <button className="bg-slate-900 p-2 rounded-md" onClick={apansi}>
+        <button className="bg-slate-900 p-2 rounded-md text-slate-600" onClick={apansi}>
           Apaansi
         </button>
       </div>
