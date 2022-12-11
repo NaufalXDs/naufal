@@ -12,7 +12,7 @@ export default function Secret() {
           I Love You
         </button>
         <button className="bg-slate-900 p-2 rounded-md" onClick={apansi}>
-          Apansi
+          Apaansi
         </button>
       </div>
     </Layout>
