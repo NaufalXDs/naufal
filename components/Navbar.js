@@ -105,7 +105,7 @@ export default function Navbar() {
       </div>
 
       <div className="navbar-end gap-3">
-        <a className="btn text-md lg:hover:shadow-md" href="mailto:naufal@naufalxd.xyz">
+        <a className="btn text-md lg:hover:shadow-md" href="https://discord.com/users/718259600117465158">
           Contact
         </a>
       </div>
