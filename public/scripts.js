@@ -15,7 +15,5 @@ hotkeys("a,h,p,b,c", function (event, handler) {
     case "c":
       window.open("https://discord.com/users/718259600117465158", "_self");
       break;
-    default:
-      alert(event);
   }
 });

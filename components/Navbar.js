@@ -67,7 +67,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-md" href="/pages/index.js">
+        <a className="btn btn-ghost normal-case text-md" href="/">
           Naufal7
         </a>
       </div>
