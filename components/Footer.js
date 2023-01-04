@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p className="text-slate-700 dark:text-white">Copyright © 2022 - All right reserved by Naufal 🥶</p>
+        <p className="">Copyright © 2022 - All right reserved by Naufal 🥶</p>
       </div>
     </footer>
   );

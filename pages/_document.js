@@ -30,12 +30,15 @@ class MyDocument extends Document {
           <link type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,900&display=swap" rel="stylesheet" />
           <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
           <link rel="icon" href="Naufal.png" />
+          <script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
           <script type="text/javascript" src="/theme.js"></script>
+          <script type="text/javascript" src="/scripts.js"></script>
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
+        <script></script>
       </Html>
     );
   }

@@ -9,7 +9,10 @@ export default function Hero() {
             hello everyone 👋, this is<span className="mt-1 block text-4xl font-bold text-dark lg:text-3xl lg:text-start text-center font-sans">Naufal</span>
           </h2>
           <p className="py-4 text-center lg:text-start">
-            I am <span className="text-red-500">web developer </span>
+            I am{" "}
+            <span className="text-red-500">
+              web developer <span className="text-slate-600">&</span> minecraft developer
+            </span>
           </p>
           <p className="flex gap-1 text-red-400 text-center md:text-start">
             <span>Study Deep: </span>
