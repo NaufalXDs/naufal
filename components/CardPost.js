@@ -7,7 +7,7 @@ export default function CardPost({ link, thumbnail, ...infoPost }) {
     <>
       <Link href={link}>
         <figure>
-          <Image src={thumbnail} width="341" height="164" alt="" className="w-full cursor-pointer" />
+          <Image src={thumbnail} width="400" height="225" alt="" className="w-full cursor-pointer" />
         </figure>
       </Link>
       <article className="p-4 card-body text-center">
