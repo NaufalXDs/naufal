@@ -21,4 +21,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 ## Screenshots
 
 ![App Screenshot](https://i.imgur.com/NThB0QU.png)
+(https://www.naufalxd.xyz/)
 
